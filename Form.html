@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Form</title>
+    </head>
+    <body>
+        <h1><i><center>Application Form</center></i></h1>
+        <form action="Register.py" method="Post">
+            Name: <input type="text" name="name" placeholder="Enter name"/><br/>
+            Password: <input type="password" name="Password"/><br/>
+            Gender: <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female<br/>
+            Area: <select name="area">
+                <option value="erode">Erode</option>
+                <option value="chennai">Chennai</option>
+                <option value="covai">Covai</option>
+            </select><br/>
+            Email: <input type="email" name="Mail"/><br/>
+            Phone number: <input type="number" name="Phone" max="10"/><br/>
+            <input type="submit" value="Register"/>
+            <input type="reset" value="Clear"/>
+        </form>
+    </body>
+</html>

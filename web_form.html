@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation Testing Web Form</title>
+</head>
+<body>
+    <h1>Automation Testing Web Form</h1>
+    <form action="#" method="POST">
+
+        <!-- Text Box -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+
+        <!-- Email Text Box -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Checkbox -->
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="Yes"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Dropdown List -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select><br><br>
+
+        <!-- Multiple Selection Dropdown -->
+        <label for="languages">Select your languages:</label><br>
+        <select id="languages" name="languages" multiple size="5">
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="French">French</option>
+            <option value="German">German</option>
+            <option value="Chinese">Chinese</option>
+        </select><br><br>
+
+        <!-- Date Picker -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Time Picker -->
+        <label for="appt">Choose an appointment time:</label>
+        <input type="time" id="appt" name="appt" required><br><br>
+
+        <!-- File Upload -->
+        <label for="file-upload">Upload a file:</label>
+        <input type="file" id="file-upload" name="file-upload"><br><br>
+
+        <!-- Number Input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="100" required><br><br>
+
+        <!-- Range Input -->
+        <label for="rating">Rating (1 to 10):</label>
+        <input type="range" id="rating" name="rating" min="1" max="10"><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
